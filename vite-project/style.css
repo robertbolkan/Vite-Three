@@ -1,0 +1,38 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main {
+  position: absolute;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+div {
+  /* padding-top: 1px; */
+  padding-right: 5px;
+  padding-bottom: 15px;
+  background: rgba(131, 236, 222, 0.7);
+  width: 700px;
+  font-size: larger;
+  line-height: 30px;
+}
+
+header {
+  max-width: fit-content;
+}
+
+.notExpanded {
+  max-height: 50px;
+  overflow: hidden;
+}
+
+.expanded {
+  max-height: auto;
+  visibility: visible;
+}

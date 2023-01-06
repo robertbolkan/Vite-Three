@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <canvas id="bg"></canvas>
+<main>
+ 
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+
+  </head>
+  <body>
+  <div>
+      <h1>Robert Bolkan</h1>
+      <h2>Software Engineer, Albany, Oregon</h2>
+    </div>
+    
+    <div>
+      <p >
+        EMAIL <a href="mailto:RobertBolkan@gmail.com">RobertBolkan@gmail.com</a>
+      </p>
+      <p >
+        GITHUB
+        <a href="https://github.com/RobertBolkan"
+          >https://github.com/RobertBolkan</a
+        >
+      </p>
+      <p >
+        LINKEDIN
+        <a href="https://www.linkedin.com/in/Robert-Bolkan"
+          >https://www.linkedin.com/in/Robert-Bolkan</a
+        >
+      </p>
+    </div>
+    <div>
+            <h2>Certifications</h2>
+            <ul>
+              <li>AWS Certified Solutions Architect - Associate</li>
+              <li>Microsoft 365 Certified: Messaging Administrator Associate</li>
+              <li>CompTIA Cloud+</li>
+              <li>CompTIA Security+</li>
+            </ul>
+          </div>
+          <div>
+            <h2>Project Experience</h2>
+            <h3>Social Media Page - Linktree look-alike</h3>
+        
+            <ul>
+              <li>
+              Leveraged my JavaScript, HTML, CSS and AWS knowledge to create and host a
+              responsive webpage on AWS Cloudfront. Managed user accounts, billing, and
+              security certificates, to ensure 99.9% uptime.
+            </li>
+            </ul>
+            <h2>Work Experience</h2>
+            <h3>Field Service Technician - Apex Systems, United States</h3>
+            <p>August 2022 - October 2022</p>
+            <ul>
+              <li>
+                Planned and coordinated the installation of Windows workstations for
+                over 300 personnel over multiple projects.
+              </li>
+              <li>
+                Led a team of technicians in a fast-paced, high-stress environment,
+                effectively delegating tasks and managing time to meet project
+                deadlines.
+              </li>
+              <li>
+                Utilized problem-solving skills to troubleshoot and resolve complex
+                technical issues, resulting in increased customer satisfaction and
+                reduced downtime.
+              </li>
+            </ul>
+            <h3>IT Specialist Mid - Insight Global, Camp Smith Hawaii</h3>
+            <p>December 2021 - April 2022</p>
+            <ul>
+              <li>
+                Prepared briefs regarding outages for ongoing shifts, the watch
+                director, and other relevant commands using C2IE and SharePoint.
+              </li>
+              <li>
+                Successfully implemented automation strategies in Outlook, drastically
+                reducing the time spent on daily tasks and increasing efficiency by
+                streamlining the creation and organization of emails.
+              </li>
+            </ul>
+            <h3>Field Service Technician - Apex Systems, United States</h3>
+            <p>May 2021 - December 2022</p>
+            <ul>
+              <li>
+                Collaborated with various teams of 2-10 individuals to migrate user
+                profiles using MAT tools, showcasing strong teamwork and communication
+                skills.
+              </li>
+              <li>
+                Managed time effectively, successfully deploying up to 200 Windows
+                workstations daily while meeting project deadlines.
+              </li>
+
+            </div>
+              
+              <!-- <button onclick="changeId()">Expand/Collapse</button> -->
+
+<!-- <div id="expandable" class="notExpanded"> -->
+  
+  <!-- <p>
+    <h3>Support Specialist - UpTime Sciences, Eugene Oregon</h3>
+    <p>January 2021 - April 2021</p>
+    <ul>
+      <li>
+        Created and addressed IT tickets while responding to support requests through Autotask, Outlook, Teams, and over the phone.
+      </li>
+      <li>
+        Tracked hours worked, billing, and appointments in Autotask, and remotely assisted users using Connectwise and N-able.
+      </li>
+      <li>
+        Managed onboarding/off-boarding for users which included purchasing and allocating licenses, creating accounts and assigning roles in AD and Office 365, and configuring and deploying macOS and Windows workstations.
+      </li>
+      <li>
+        Researched and resolved issues regarding Office 365, Outlook, OneDrive, Intune, Citrix, and many others.     
+       </li>
+      <li>
+        Virtualized machines using Disk2VHD and Hyper-V.
+            </li>
+    </ul></p>
+
+    <p>
+      <h3>Help Desk Technician - University of Oregon FASS IT, Eugene Oregon</h3>
+      <p>May 2019 - April 2020 and June 2020 - December 2020</p>
+      <ul>
+        <li>
+          Created and resolved IT tickets using Jira Service Desk and conducted monthly data backups.
+        </li>
+        <li>
+          Assisted in creating and using Microsoft Deployment Toolkit to automate the deployment of Windows 10 machines.
+        </li>
+        <li>
+          Deployed, troubleshot, updated, and pushed applications to iPhones, iPads, and macOS using Jamf Pro.
+        </li>
+        <li>
+          Created users, group policies, and user groups in Active Directory.    
+         </li>
+        <li>
+          Tracked and picked up deliveries, and maintained inventory records.
+              </li>
+      </ul></p>
+
+      <p>
+        <h3>Help Desk Support - Springfield Public Schools, Springfield Oregon</h3>
+        <p>April 2020 - June 2020</p>
+        <ul>
+          <li>
+            Maintained a call center with over 100 calls a day and resolved issues in response to migrating students to Google Workspace.
+          </li>
+          <li>
+            Resolved issues for teachers and parents with macOS, Chromebook, and Google Classroom, for over 4000 users. 
+          </li>
+  
+        </ul></p> -->
+
+</div>
+
+<script>
+  function changeId() {
+    const element = document.getElementById('expandable');
+    if (element.classList.contains('notExpanded')) {
+      // element.setAttribute('id', 'expanded');
+      element.classList.remove('notExpanded');
+      element.classList.add('expanded');
+      // alert("is now expanded")
+    } else {
+      // element.setAttribute('id', 'notExpanded');
+      element.classList.remove('expanded');
+      element.classList.add('notExpanded');
+      // alert("is now hidden")
+    }
+  }
+</script>
+       <div>
+            <h2>Skills</h2>
+            <ul>
+              <li>Programming languages: JavaScript, HTML5/CSS3</li>
+              <li>Frameworks: Angular</li>
+              <li>Tools: Active Directory, GitHub, AWS, VS Code</li>
+            </ul>
+     
+   
+      
+
+    
+          </div>
+
+          <div>
+    <h2>Education</h2>
+    <h3>LaunchCode, Cleared Talent CodeCamp</h3>
+    <p>March 2023</p>
+    <h3>University of Oregon, BS, General Science</h3>
+    <p>June 2020</p>
+    <h3>Florida State College Jacksonville, BS, Computer Science</h3>
+    <p>April 2016</p>
+</div>
+<!-- Add a container element to hold the view count -->
+<div id="view-count"></div>
+
+<!-- Add a script tag to include the JavaScript code -->
+<script src="script.js"></script>
+
+<!-- Add a script tag to run the main function and update the view count on the page -->
+<!-- <script>
+  main().then(viewCount => {
+    // Update the view count on the page
+    document.getElementById('view-count').innerHTML = `View count: ${viewCount}`;
+  });
+</script> -->
+
+  
+</main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
